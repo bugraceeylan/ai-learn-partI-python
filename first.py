@@ -71,3 +71,15 @@ def get_adult_users(users):
     return adult_users
 adult_users = get_adult_users(users)
 print(adult_users)
+
+
+
+textls = ["ali", "mehmet", "can", "zeynep", "ece", "ibrahim"]
+
+totalText = [n for n in textls if len(n) > 5]
+print(totalText)
+
+def convert_to_uppercase(texts):
+    return [t.upper() for t in texts]
+
+print(convert_to_uppercase(textls))
